@@ -3,10 +3,8 @@ import pandas as pd
 from collections import Counter
 import matplotlib.pyplot as plt
 
-# Sample log file path (update this path)
 LOG_FILE = "server_logs.log"
 
-# Regex to parse log lines
 LOG_PATTERN = r'(?P<ip>\S+) - - \[(?P<timestamp>.*?)\] "(?P<method>\S+) (?P<url>\S+) \S+" (?P<status>\d+) (?P<size>\d+)'
 
 def parse_logs(file_path):
