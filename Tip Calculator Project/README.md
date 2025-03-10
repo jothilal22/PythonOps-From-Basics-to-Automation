@@ -10,9 +10,7 @@ A simple Python script to calculate how much each person should pay when splitti
 📜 Usage
 1️⃣ Run the script:
 
-sh
-Copy
-Edit
-python tip_calculator.py
+```python tip_calculator.py```
+
 2️⃣ Enter the bill amount, tip percentage, and number of people.
 3️⃣ The program will output the exact amount each person should pay.
